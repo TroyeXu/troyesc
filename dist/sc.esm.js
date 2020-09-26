@@ -214,7 +214,7 @@ var __vue_render__ = function () {
     on: {
       "click": _vm.reset
     }
-  }, [_vm._v("Reset")]), _vm._v("\n  single component\n")]);
+  }, [_vm._v("Reset")]), _vm._v("\n  single component version 5\n")]);
 };
 
 var __vue_staticRenderFns__ = [];
@@ -222,8 +222,8 @@ var __vue_staticRenderFns__ = [];
 
 const __vue_inject_styles__ = function (inject) {
   if (!inject) return;
-  inject("data-v-74293d3e_0", {
-    source: ".sc[data-v-74293d3e]{display:block;width:400px;margin:25px auto;border:1px solid #ccc;background:#eaeaea;text-align:center;padding:25px}.sc p[data-v-74293d3e]{margin:0 0 1em}",
+  inject("data-v-635edd11_0", {
+    source: ".sc[data-v-635edd11]{display:block;width:400px;margin:25px auto;border:1px solid #ccc;background:#eaeaea;text-align:center;padding:25px}.sc p[data-v-635edd11]{margin:0 0 1em}",
     map: undefined,
     media: undefined
   });
@@ -231,7 +231,7 @@ const __vue_inject_styles__ = function (inject) {
 /* scoped */
 
 
-const __vue_scope_id__ = "data-v-74293d3e";
+const __vue_scope_id__ = "data-v-635edd11";
 /* module identifier */
 
 const __vue_module_identifier__ = undefined;

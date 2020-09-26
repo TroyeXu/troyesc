@@ -165,7 +165,7 @@ var __vue_render__ = function __vue_render__() {
 
   return _c('div', {
     staticClass: "sc"
-  }, [_vm._ssrNode("<p data-v-74293d3e>" + _vm._ssrEscape("\n    The counter was " + _vm._s(_vm.changedBy) + " to\n    ") + "<b data-v-74293d3e>" + _vm._ssrEscape(_vm._s(_vm.counter)) + "</b>.\n  </p> <button data-v-74293d3e>Click +1</button> <button data-v-74293d3e>Click -1</button> <button data-v-74293d3e>Click +5</button> <button data-v-74293d3e>Click -5</button> <button data-v-74293d3e>Reset</button>\n  single component\n")]);
+  }, [_vm._ssrNode("<p data-v-635edd11>" + _vm._ssrEscape("\n    The counter was " + _vm._s(_vm.changedBy) + " to\n    ") + "<b data-v-635edd11>" + _vm._ssrEscape(_vm._s(_vm.counter)) + "</b>.\n  </p> <button data-v-635edd11>Click +1</button> <button data-v-635edd11>Click -1</button> <button data-v-635edd11>Click +5</button> <button data-v-635edd11>Click -5</button> <button data-v-635edd11>Reset</button>\n  single component version 5\n")]);
 };
 
 var __vue_staticRenderFns__ = [];
@@ -173,8 +173,8 @@ var __vue_staticRenderFns__ = [];
 
 var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
   if (!inject) return;
-  inject("data-v-74293d3e_0", {
-    source: ".sc[data-v-74293d3e]{display:block;width:400px;margin:25px auto;border:1px solid #ccc;background:#eaeaea;text-align:center;padding:25px}.sc p[data-v-74293d3e]{margin:0 0 1em}",
+  inject("data-v-635edd11_0", {
+    source: ".sc[data-v-635edd11]{display:block;width:400px;margin:25px auto;border:1px solid #ccc;background:#eaeaea;text-align:center;padding:25px}.sc p[data-v-635edd11]{margin:0 0 1em}",
     map: undefined,
     media: undefined
   });
@@ -182,10 +182,10 @@ var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
 /* scoped */
 
 
-var __vue_scope_id__ = "data-v-74293d3e";
+var __vue_scope_id__ = "data-v-635edd11";
 /* module identifier */
 
-var __vue_module_identifier__ = "data-v-74293d3e";
+var __vue_module_identifier__ = "data-v-635edd11";
 /* functional template */
 
 var __vue_is_functional_template__ = false;
