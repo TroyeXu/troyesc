@@ -10,6 +10,9 @@ import { terser } from 'rollup-plugin-terser'
 import minimist from 'minimist'
 import svg from 'rollup-plugin-svg'
 import sass from 'rollup-plugin-sass'
+import styles from 'rollup-plugin-styles'
+import image from 'rollup-plugin-image'
+import url from '@rollup/plugin-url'
 
 // Get browserslist config and remove ie from es build targets
 const esbrowserslist = fs
@@ -96,8 +99,11 @@ if (!argv.format || argv.format === 'es') {
         ],
       }),
       commonjs(),
-      sass(),
       svg(),
+      sass,
+      styles(),
+      image(),
+      url(),
     ],
   }
   buildFormats.push(esConfig)
@@ -128,6 +134,10 @@ if (!argv.format || argv.format === 'cjs') {
       babel(baseConfig.plugins.babel),
       commonjs(),
       svg(),
+      sass,
+      styles(),
+      image(),
+      url(),
     ],
   }
   buildFormats.push(umdConfig)

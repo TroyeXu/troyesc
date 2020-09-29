@@ -1,6 +1,7 @@
 <script>
 import Vue from 'vue'
-import Sc from '@/sc.vue'
+// import Sc from '@/sc.vue'
+import Sc from '../dist/sc.esm'
 
 export default Vue.extend({
   name: 'ServeDev',

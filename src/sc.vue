@@ -4,7 +4,7 @@
   <div class="w100 abr-buttons">
     <div class="buttons fo2">
       <a @click="linkUrl('/')">
-        <img src="./statics/image/casino-index.svg" class="mlogo" />
+        <!-- <img src="./statics/image/casino-index.svg" class="mlogo" /> -->
       </a>
       <div v-if="isLogin" class="header_right fo2">
         <div class="header_user fd6">
@@ -25,8 +25,6 @@
 import { throttle } from 'quasar'
 import utils from 'troyemixin'
 import { removeLocalStorage } from '@troyexu/yl-fn'
-import './assert/css/styleAll.scss'
-
 export default {
   props: {
     isLogin: {
@@ -52,6 +50,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import './assert/css/styleAll.scss';
+
 /*選單登出*/
 .outbox {
   width: 100%;
