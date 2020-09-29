@@ -1,6 +1,6 @@
 {
   "name": "troyesc",
-  "version": "1.0.0",
+  "version": "2.1.0",
   "description": "",
   "main": "dist/sc.ssr.js",
   "browser": "dist/sc.esm.js",
